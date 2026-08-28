@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
-    android:background="#133458"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#133458"
+    android:orientation="vertical"
     tools:context=".MoviensActivity">
 
     <ImageView
@@ -30,10 +30,10 @@
 
     <TextView
 
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
         android:text="Interact With Your Demons"
         android:textAllCaps="true"
         android:textColor="#fff"
@@ -42,34 +42,34 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:hint="Username"
-        android:textColorHint="#fff"
+        android:layout_marginTop="40dp"
         android:gravity="center_vertical"
+        android:hint="Username"
         android:paddingStart="16dp"
-        android:paddingEnd="16dp" />
+        android:paddingEnd="16dp"
+        android:textColorHint="#fff" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:hint="Password"
-        android:textColorHint="#fff"
+        android:layout_marginTop="20dp"
         android:gravity="center_vertical"
+        android:hint="Password"
         android:paddingStart="16dp"
-        android:paddingEnd="16dp" />
+        android:paddingEnd="16dp"
+        android:textColorHint="#fff" />
 
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button"
 
-        android:backgroundTint="#FF9800"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:text="SIGN IN "/>
+        android:backgroundTint="#FF9800"
+        android:text="SIGN IN " />
 
     <TextView
         android:layout_width="wrap_content"
@@ -83,18 +83,18 @@
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button"
-        android:backgroundTint="#255187"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:text="Sign in with Facebook"/>
+        android:backgroundTint="#255187"
+        android:text="Sign in with Facebook" />
 
     <TextView
 
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
         android:text="Don't have an account yet? Sign Up."
         android:textAllCaps="true"
         android:textColor="#fff"

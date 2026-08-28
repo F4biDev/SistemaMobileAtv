@@ -10,10 +10,11 @@
     tools:context=".TangedcoActivity">
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="60dp"
         android:scaleType="centerCrop"
         android:src="@drawable/thunder" />
 
@@ -30,10 +31,11 @@
         android:textStyle="italic" />
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"
         android:src="@drawable/thunder" />
+
 
 </LinearLayout>
