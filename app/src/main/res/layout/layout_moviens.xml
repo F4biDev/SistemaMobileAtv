@@ -4,21 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:layout_margin="20dp"
+    android:background="#133458"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MoviensActivity">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img" />
+
     <TextView
-        android:layout_marginTop="120dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Moviens"
         android:textAllCaps="true"
-        android:textColor="#0D1328"
+        android:textColor="#fff"
         android:textSize="50dp"
-        android:textStyle="bold" />
+        android:textStyle="italic" />
 
     <TextView
 
@@ -28,9 +36,9 @@
         android:layout_gravity="center_horizontal"
         android:text="Interact With Your Demons"
         android:textAllCaps="true"
-        android:textColor="#0D1328"
+        android:textColor="#fff"
         android:textSize="10dp"
-        android:textStyle="" />
+        android:textStyle="italic" />
 
 
     <com.google.android.material.textfield.TextInputEditText
@@ -38,21 +46,21 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:hint="Username"
+        android:textColorHint="#fff"
         android:gravity="center_vertical"
         android:paddingStart="16dp"
-        android:paddingEnd="16dp"
-        app:startIconDrawable="@drawable/baseline_person" />
-
-
+        android:paddingEnd="16dp" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:hint="Password"
+        android:textColorHint="#fff"
         android:gravity="center_vertical"
         android:paddingStart="16dp"
         android:paddingEnd="16dp" />
+
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button"
@@ -69,9 +77,9 @@
         android:layout_gravity="center_horizontal"
         android:text="or"
         android:textAllCaps="true"
-        android:textColor="#0D1328"
+        android:textColor="#fff"
         android:textSize="15dp"
-        android:textStyle="" />
+        android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button"
@@ -80,5 +88,17 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:text="Sign in with Facebook"/>
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Don't have an account yet? Sign Up."
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="10dp"
+        android:textStyle="bold" />
 
 </LinearLayout>
