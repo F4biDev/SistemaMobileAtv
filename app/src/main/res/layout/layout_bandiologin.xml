@@ -5,37 +5,47 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#112E81"
+    android:background="#CF0F47"
     android:orientation="vertical"
-    tools:context=".TangedcoActivity">
+    tools:context=".BandioActivity">
 
-    <ImageView
-
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="60dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/thunder" />
 
     <TextView
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="TANGEDCO"
+        android:textSize=""
+        android:text="<"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="bandio"
         android:textAllCaps="true"
         android:textColor="#fff"
         android:textSize="50dp"
-
         android:textStyle="italic" />
 
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:scaleType="centerCrop"
-        android:src="@drawable/thunder" />
+
 
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
@@ -57,25 +67,31 @@
         android:paddingEnd="16dp"
         android:textColorHint="#fff" />
 
+    <com.google.android.material.button.MaterialButton
+        style="@style/ThemeOverlay.Material3.Button.TextButton"
+        android:layout_marginLeft="125dp"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FF3483"
+        app:icon="@drawable/exit"
+        app:iconSize="35dp"
+        app:iconGravity="textTop"
+        app:iconPadding="0dp"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="60dp"
         android:layout_marginTop="20dp"
-        android:text="Forgot your password?"
+        android:text="Don't have an account? Sign up"
         android:textAllCaps="true"
         android:textColor="#fff"
         android:textSize="15dp"
         android:textStyle="bold" />
 
 
-    <com.google.android.material.button.MaterialButton
-        style="@style/Widget.MaterialComponents.Button"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:backgroundTint="#FF3483"
-        android:text="Sign in with Facebook" />
+
 
 </LinearLayout>
