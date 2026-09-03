@@ -14,7 +14,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="60dp"
         android:scaleType="centerCrop"
         android:src="@drawable/thunder" />
 
@@ -37,5 +37,45 @@
         android:scaleType="centerCrop"
         android:src="@drawable/thunder" />
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:hint="Username"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColorHint="#fff" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColorHint="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Don't have an account yet? Sign Up."
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#FF3483"
+        android:text="Sign in with Facebook" />
 
 </LinearLayout>
