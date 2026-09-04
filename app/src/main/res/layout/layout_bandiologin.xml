@@ -10,17 +10,7 @@
     tools:context=".BandioActivity">
 
 
-    <TextView
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize=""
-        android:text="<"
-        android:textAllCaps="true"
-        android:textColor="#fff"
-        android:layout_marginRight="150dp"
-        android:layout_marginTop="40dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,12 +25,12 @@
         android:textStyle="bold" />
 
     <TextView
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="bandio"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:textColor="#fff"
         android:textSize="50dp"
         android:textStyle="italic" />
@@ -76,7 +66,7 @@
         app:icon="@drawable/exit"
         app:iconSize="35dp"
         app:iconGravity="textTop"
-        app:iconPadding="0dp"
+        app:iconPadding="4dp"
         />
 
     <TextView
